@@ -90,6 +90,8 @@ private extension TextFieldTableViewCell {
         textField.rightViewMode = .always
         textField.leftView = UIView(frame: Constants.textFieldSideViewFrame)
         textField.rightView = UIView(frame: Constants.textFieldSideViewFrame)
+        textField.autocorrectionType = .no
+        textField.keyboardType = .default
         textField.delegate = self
         return textField.makeForLayout()
     }
