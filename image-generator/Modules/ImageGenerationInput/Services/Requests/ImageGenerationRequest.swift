@@ -26,6 +26,7 @@ struct ImageGenerationRequest: Request {
         text: String
     ) {
         baseUrl += "\(size.width)x\(size.height)&text=\(text)"
+        baseUrl = baseUrl.replacingOccurrences(of: " ", with: "+")
     }
 
     init(baseUrl: String) {
