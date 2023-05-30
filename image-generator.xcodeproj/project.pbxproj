@@ -217,18 +217,18 @@
 				8A808ED12A25079000D1D011 /* Base */,
 				8A808ECB2A24FDD600D1D011 /* ReusableUI */,
 				8A808EC12A24F0A700D1D011 /* Style */,
-				8A808EBE2A24F05100D1D011 /* Extenstions */,
+				8A808EBE2A24F05100D1D011 /* Extensions */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		8A808EBE2A24F05100D1D011 /* Extenstions */ = {
+		8A808EBE2A24F05100D1D011 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				8A808EBF2A24F05B00D1D011 /* UIView+Extension.swift */,
 				8A808ECF2A2500C000D1D011 /* UITableViewCell+ReuseID.swift */,
 			);
-			path = Extenstions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8A808EC12A24F0A700D1D011 /* Style */ = {
